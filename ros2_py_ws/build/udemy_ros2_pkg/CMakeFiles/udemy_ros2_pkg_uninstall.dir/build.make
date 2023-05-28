@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pain/Workspaces/ros2_py_ws/src/udemy_ros2_pkg
+CMAKE_SOURCE_DIR = /home/pain/Workspaces_ros2/ros2_py_ws/src/udemy_ros2_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pain/Workspaces/ros2_py_ws/build/udemy_ros2_pkg
+CMAKE_BINARY_DIR = /home/pain/Workspaces_ros2/ros2_py_ws/build/udemy_ros2_pkg
 
 # Utility rule file for udemy_ros2_pkg_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/udemy_ros2_pkg_uninstall.dir/compiler_depend.make
 include CMakeFiles/udemy_ros2_pkg_uninstall.dir/progress.make
 
 CMakeFiles/udemy_ros2_pkg_uninstall:
-	/usr/bin/cmake -P /home/pain/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/pain/Workspaces_ros2/ros2_py_ws/build/udemy_ros2_pkg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 udemy_ros2_pkg_uninstall: CMakeFiles/udemy_ros2_pkg_uninstall
 udemy_ros2_pkg_uninstall: CMakeFiles/udemy_ros2_pkg_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/udemy_ros2_pkg_uninstall.dir/clean:
 .PHONY : CMakeFiles/udemy_ros2_pkg_uninstall.dir/clean
 
 CMakeFiles/udemy_ros2_pkg_uninstall.dir/depend:
-	cd /home/pain/Workspaces/ros2_py_ws/build/udemy_ros2_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pain/Workspaces/ros2_py_ws/src/udemy_ros2_pkg /home/pain/Workspaces/ros2_py_ws/src/udemy_ros2_pkg /home/pain/Workspaces/ros2_py_ws/build/udemy_ros2_pkg /home/pain/Workspaces/ros2_py_ws/build/udemy_ros2_pkg /home/pain/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/CMakeFiles/udemy_ros2_pkg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pain/Workspaces_ros2/ros2_py_ws/build/udemy_ros2_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pain/Workspaces_ros2/ros2_py_ws/src/udemy_ros2_pkg /home/pain/Workspaces_ros2/ros2_py_ws/src/udemy_ros2_pkg /home/pain/Workspaces_ros2/ros2_py_ws/build/udemy_ros2_pkg /home/pain/Workspaces_ros2/ros2_py_ws/build/udemy_ros2_pkg /home/pain/Workspaces_ros2/ros2_py_ws/build/udemy_ros2_pkg/CMakeFiles/udemy_ros2_pkg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/udemy_ros2_pkg_uninstall.dir/depend
 

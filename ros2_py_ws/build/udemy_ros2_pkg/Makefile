@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pain/Workspaces/ros2_py_ws/src/udemy_ros2_pkg
+CMAKE_SOURCE_DIR = /home/pain/Workspaces_ros2/ros2_py_ws/src/udemy_ros2_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pain/Workspaces/ros2_py_ws/build/udemy_ros2_pkg
+CMAKE_BINARY_DIR = /home/pain/Workspaces_ros2/ros2_py_ws/build/udemy_ros2_pkg
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pain/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/CMakeFiles /home/pain/Workspaces/ros2_py_ws/build/udemy_ros2_pkg//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pain/Workspaces_ros2/ros2_py_ws/build/udemy_ros2_pkg/CMakeFiles /home/pain/Workspaces_ros2/ros2_py_ws/build/udemy_ros2_pkg//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pain/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pain/Workspaces_ros2/ros2_py_ws/build/udemy_ros2_pkg/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -197,6 +197,32 @@ udemy_ros2_pkg_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/udemy_ros2_pkg_uninstall.dir/build.make CMakeFiles/udemy_ros2_pkg_uninstall.dir/build
 .PHONY : udemy_ros2_pkg_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named ament_cmake_python_copy_scripts
+
+# Build rule for target.
+ament_cmake_python_copy_scripts: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_scripts
+.PHONY : ament_cmake_python_copy_scripts
+
+# fast build rule for target.
+ament_cmake_python_copy_scripts/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_scripts.dir/build.make CMakeFiles/ament_cmake_python_copy_scripts.dir/build
+.PHONY : ament_cmake_python_copy_scripts/fast
+
+#=============================================================================
+# Target rules for targets named ament_cmake_python_build_scripts_egg
+
+# Build rule for target.
+ament_cmake_python_build_scripts_egg: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_build_scripts_egg
+.PHONY : ament_cmake_python_build_scripts_egg
+
+# fast build rule for target.
+ament_cmake_python_build_scripts_egg/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_scripts_egg.dir/build.make CMakeFiles/ament_cmake_python_build_scripts_egg.dir/build
+.PHONY : ament_cmake_python_build_scripts_egg/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -210,6 +236,8 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... ament_cmake_python_build_scripts_egg"
+	@echo "... ament_cmake_python_copy_scripts"
 	@echo "... udemy_ros2_pkg_uninstall"
 	@echo "... uninstall"
 .PHONY : help

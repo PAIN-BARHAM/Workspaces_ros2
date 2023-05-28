@@ -1,0 +1,2 @@
+Invoking command in '/home/pain/Workspaces_ros2/ros2_py_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pain/Workspaces_ros2/ros2_py_ws/build/udemy_ros2_pkg -- -j4 -l4
+Invoked command in '/home/pain/Workspaces_ros2/ros2_py_ws/build/udemy_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pain/Workspaces_ros2/ros2_py_ws/build/udemy_ros2_pkg -- -j4 -l4
